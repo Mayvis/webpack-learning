@@ -139,7 +139,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction notify(message) {\n\talert(message);\n}\n\nfunction log(message) {\n\tconsole.log(message);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n\tnotify,\n\tlog\n});\n\n//# sourceURL=webpack:///./src/Notification.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nfunction notify(message) {\n  alert(message);\n}\n\nfunction log(message) {\n  console.log(message);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  notify: notify,\n  log: log\n});\n\n//# sourceURL=webpack:///./src/Notification.js?");
 
 /***/ }),
 
@@ -162,7 +162,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/c
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Notification_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notification.js */ \"./src/Notification.js\");\n__webpack_require__(/*! ./main.css */ \"./src/main.css\");\n\n\n\n_Notification_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].log('Here we go');\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Notification_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notification.js */ \"./src/Notification.js\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n__webpack_require__(/*! ./main.css */ \"./src/main.css\");\n\n\n_Notification_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].log('Here we go');\n\nvar Form =\n/*#__PURE__*/\nfunction () {\n  function Form() {\n    _classCallCheck(this, Form);\n  }\n\n  _createClass(Form, [{\n    key: \"hello\",\n    value: function hello() {\n      console.log('hello');\n    }\n  }]);\n\n  return Form;\n}();\n\nvar form = new Form();\nform.hello();\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 
