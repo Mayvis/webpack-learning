@@ -1,4 +1,4 @@
-require('./main.css');
+require('./main.scss');
 
 import Notification from './Notification.js';
 
