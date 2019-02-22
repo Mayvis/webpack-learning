@@ -18,13 +18,22 @@ module.exports = {
     },
 
     module: {
-        rules: [{
+        rules: [
+        	{
                 test: /\.s[ac]ss$/,
                 use: [{
                         loader: MiniCssExtractPlugin.loader,
                     },
                     'css-loader', 'sass-loader'
                 ]
+            },
+
+            {
+                test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/,
+                loader: 'file-loader',
+                options: {
+                    name: 'images/[name].[hash].[ext]'
+                }
             },
 
             {
