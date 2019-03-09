@@ -1,11 +1,19 @@
 body {
-	background-color: red;
+    background-color: red;
 
-	h1 {
-		color: yellow;
-	}
+    h1 {
+        color: yellow;
+    }
+}
 
-	.image {
-		background-image: url('./images/stub.png');
-	}
+.image {
+    background-image: url('./images/stub.png');
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
 }

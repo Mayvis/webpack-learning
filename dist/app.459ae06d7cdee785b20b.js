@@ -98,6 +98,28 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction notify(message) {\n 
 
 /***/ }),
 
+/***/ "./src/images/zelda.jpeg":
+/*!*******************************!*\
+  !*** ./src/images/zelda.jpeg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/zelda.7c9055282ac7af68c51f1a86f5fc48b2.jpeg\";\n\n//# sourceURL=webpack:///./src/images/zelda.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/zelda_1.jpg":
+/*!********************************!*\
+  !*** ./src/images/zelda_1.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/zelda_1.2a2b9c5bb8ce0e1b4c7fb5071a33e048.jpg\";\n\n//# sourceURL=webpack:///./src/images/zelda_1.jpg?");
+
+/***/ }),
+
 /***/ "./src/main.js":
 /*!*********************!*\
   !*** ./src/main.js ***!
@@ -106,7 +128,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction notify(message) {\n 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Notification_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notification.js */ \"./src/Notification.js\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n__webpack_require__(/*! ./main.scss */ \"./src/main.scss\");\n\n\n_Notification_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].log('Here we go');\n\nvar Form =\n/*#__PURE__*/\nfunction () {\n  function Form() {\n    _classCallCheck(this, Form);\n  }\n\n  _createClass(Form, [{\n    key: \"hello\",\n    value: function hello() {\n      console.log('hello');\n    }\n  }]);\n\n  return Form;\n}();\n\nvar form = new Form();\nform.hello();\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Notification_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notification.js */ \"./src/Notification.js\");\n/* harmony import */ var _images_zelda_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/zelda.jpeg */ \"./src/images/zelda.jpeg\");\n/* harmony import */ var _images_zelda_jpeg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_zelda_jpeg__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_zelda_1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/zelda_1.jpg */ \"./src/images/zelda_1.jpg\");\n/* harmony import */ var _images_zelda_1_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_zelda_1_jpg__WEBPACK_IMPORTED_MODULE_2__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n__webpack_require__(/*! ./main.scss */ \"./src/main.scss\");\n\n\n\n\n_Notification_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].log('Here we go');\n\nvar Form =\n/*#__PURE__*/\nfunction () {\n  function Form() {\n    _classCallCheck(this, Form);\n  }\n\n  _createClass(Form, [{\n    key: \"hello\",\n    value: function hello() {\n      console.log('hello');\n    }\n  }]);\n\n  return Form;\n}();\n\nvar form = new Form();\nform.hello();\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ }),
 
